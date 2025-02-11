@@ -1,10 +1,10 @@
 name: Post welcome comment
 on:
-  pull-request:
-    type: [opened]
+  pull_request:
+    types: [opened]
 permissions:
   pull-requests: write
-jibs:
+jobs:
   build:
     name: Post welcome comment
     runs-on: ubuntu-latest
